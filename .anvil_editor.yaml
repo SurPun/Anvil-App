@@ -1,7 +1,9 @@
 unique_ids:
   forms:
     HomePage: ZRJI74JUAF6AEINWJO6YM2EES2CZS4YL
-  modules: {}
+    LoginPage: '1715640446437964480808242.4008'
+  modules:
+    LoginPage.LoginModule1: '1715640484022384401345274.23096'
   server_modules: {}
   assets:
     standard-page.html: HL4NC4GQ2R26NOFHI2OB4EN5UGXXQSUW
