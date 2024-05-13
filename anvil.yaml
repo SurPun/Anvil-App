@@ -4,10 +4,11 @@ services:
   client_config: {}
   server_config: {}
 startup: {type: form, module: HomePage}
-package_name: SelfApp
+package_name: Anvil_App_1
 allow_embedding: false
-name: SelfApp
+name: Anvil-App-1
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
+metadata: {title: Opportunities Insights}
 startup_form: null
 renamed: true
