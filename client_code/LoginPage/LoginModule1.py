@@ -1,4 +1,5 @@
-from anvil import openform
+from anvil import *
 from . import LoginPage
 
-openform('LoginPage')
+# Load loginPage
+open_form('LoginPage')
