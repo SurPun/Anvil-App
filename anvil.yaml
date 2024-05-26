@@ -4,11 +4,29 @@ services:
   client_config: {}
   server_config: {}
 startup: {type: module, module: LoginPage.LoginModule1}
-package_name: Anvil_App_1
+package_name: Wed_Planner
 allow_embedding: false
-name: Anvil-App-1
+name: Wed-Planner
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: Opportunities Insights}
 startup_form: null
+db_schema:
+  users:
+    client: none
+    server: full
+    columns:
+    - name: first name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: last name
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: email
+      admin_ui: {width: 200, order: 2}
+      type: string
+    - name: password
+      admin_ui: {width: 200, order: 3}
+      type: string
+    title: Users
 renamed: true
