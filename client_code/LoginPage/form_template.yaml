@@ -10,7 +10,7 @@ components:
     type: Image
     layout_properties: {width: 217.5}
   - name: login_nav
-    properties: {text: Login, spacing_above: large}
+    properties: {text: Login, spacing_above: large, align: left}
     type: Link
     layout_properties: {expand: false, width: null}
 - name: spacer_1
